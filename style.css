@@ -1,0 +1,143 @@
+:root{
+    --text-color: #73a3d0;
+}
+.encabezado{
+    width: 1010px;
+    border: rgba(220, 213, 213);
+    border-width: 1px;
+    border-style: solid ;
+    padding: 20px 1% 20px 30px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    width: 1010px;
+    grid-template-columns: 300px 710px;
+    background-color: var(--text-color);
+    
+  }
+  
+.grid-container > div {
+    
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 18px;
+    border: rgba(220, 213, 213);
+    border-width: 1px;
+    border-style: none solid none none;
+  }
+  
+.section {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: white;
+    padding: 10% ;
+    font-weight: bold;
+  }
+
+.name{
+    padding-bottom: 20px;
+    font-weight: 501;
+}
+
+.grid-content{
+    display: grid;
+    width: 710px;
+    grid-template-columns: 300px 410px;
+    background-color: blanchedalmond;
+
+}
+
+.grid-content > div{
+    text-align: start;
+    color:rgba(92, 90, 90, 0.9)
+}
+
+.titulo1{
+    color: var(--text-color);
+    font: bold 25px Arial;
+}
+.titulo2{
+    color: rgba(92, 90, 90, 0.9);
+    font: bold 18px Arial;
+}
+
+
+.full{
+    display: grid;
+    width: 50%;
+    height: 5px;
+    grid-template-columns: 100% 0;
+    background-color: white;
+    margin-top: 10px;
+    border: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.alto{
+    display: grid;
+    width: 50%;
+    height: 5px;
+    grid-template-columns: 90% auto;
+    background-color: white;
+    margin-top: 10px;
+    border: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+
+    
+}
+
+.medio{
+    display: grid;
+    width: 50%;
+    height: 5px;
+    grid-template-columns: 60% auto;
+    background-color: white;
+    margin-top: 10px;
+    border: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.bajo{
+    display: grid;
+    width: 50%;
+    height: 5px;
+    grid-template-columns: 40% auto;
+    background-color: white;
+    margin-top: 10px;
+    border: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.fill-box{
+    background-color: var(--text-color);
+}
+    
+.parrafo{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.contenedor{
+    padding: 0 0 0 25%;
+}
+
+.qr{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.grid-link{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
