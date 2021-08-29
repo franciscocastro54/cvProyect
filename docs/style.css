@@ -39,8 +39,9 @@
   }
 
 .name{
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-weight: 501;
+
 }
 
 .grid-content{
@@ -143,4 +144,10 @@
 .grid-link{
     display: grid;
     grid-template-columns: 50% auto;
+}
+
+.flex-parrafo{
+    display: flex;
+    margin-top: -19px;
+    margin-bottom: -96px;
 }
