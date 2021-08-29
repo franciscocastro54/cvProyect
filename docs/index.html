@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="html2pdf.bundle.min.js"></script>
+    <script src="formatoPDF.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>CV Francisco Castro Zuleta</title>
+    
 </head>
 <body>
     
-
+    <button class="boton" id="btnCrearPdf">Descargar pdf</button>
     
 
-    <div class="contenedor" id="content">
+    <div  id="content">
         <div class="encabezado">
             <h1 class="titulo1">Francisco Castro Zuleta</h1>
             <text class="titulo2">Estudiante Analista Programador</text>
@@ -156,8 +160,7 @@
 
                 <div class="name"></div>
                 <div ></div>
-                
-
+ 
             </div>
         </div>
 
@@ -165,10 +168,8 @@
             <h4 class="section">Aptitudes</h4>
             
             <div class="flex-parrafo">
-
-                
+              
                 <h5 class="parrafo">Excelente comunicación y  trabajo en equipo además de disposición para aprender nuevas tecnologías y constante estudio autodidacta de nuevas soluciones tecnologicas. </h5>
-                <div></div>
                 
             </div>
         </div>
@@ -222,26 +223,14 @@
                 <div class="name">Sistema de análisis de datos de mineria</div>
                 <div class="grid-link"><a href="https://gh-pages.d1ttcus0droxpy.amplifyapp.com/Circuito_Unitario">Proyecto mineria</a> <img class="qr"src="qrMineria.png" alt="mineral proyect"/></div>
                 
-                <div class="name"></div>
-                <div></div>
 
                 <div class="name">Tecnologías usadas en diseño</div>
                 <div class="parrafo">html, Bootstrap 5, Javascript, React,  css y github</div>
 
-                <div class="name"></div>
-                <div></div>
-
-                <div class="name"></div>
-                <div></div>
                 
                 <div class="name">Curriculum</div>
                 <div class="grid-link"><a href="https://franciscocastro54.github.io/cvProyect/">Curriculum online</a> <img class="qr"src="qrCV.png" alt="curriculum"/></div>
 
-                <div class="name"></div>
-                <div></div>
-
-                <div class="name"></div>
-                <div></div>
 
                 <div class="name">Código</div>
                 <div><a href="https://github.com/franciscocastro54/cvProyect">código fuente de curriculum</a></div>
@@ -252,8 +241,6 @@
         </div>
 
     </div>
-    
-    <div id="elementH"></div>
     
 </body>
 </html>
