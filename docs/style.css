@@ -24,8 +24,8 @@
     
     background-color: rgba(255, 255, 255, 0.9);
     text-align: center;
-    padding: 20px 30px;
-    font-size: 18px;
+    padding: 30px 30px;
+    font-size: var(--font-size);
     border: rgba(220, 213, 213);
     border-width: 1px;
     border-style: none solid none none;
@@ -47,7 +47,7 @@
 }
 
 .name-proyect{
-    margin: 0 0 5%;
+    margin: 50px 0 0 0;
     font-weight: 501;
 
 
@@ -73,7 +73,7 @@
 }
 .titulo2{
     color: rgba(92, 90, 90, 0.9);
-    font: bold 18px Arial;
+    font: bold var(--font-size) Arial;
 }
 
 
@@ -135,7 +135,7 @@
     
 .parrafo{
     text-align: justify;
-    font-size: 18px;
+    font-size: var(--font-size);
     color: rgba(92, 90, 90, 0.9);
     width: 90%;
 }
@@ -152,13 +152,22 @@
 
 .grid-link{
     display: grid;
-    grid-template-columns: 50% auto;
-    padding: 20px 0 5px 0;
+    grid-template-rows: 50px auto;
+    padding: 50px 0 5px 0;
 }
 
 .grid-parrafo{
     display: grid;
-    height: 96px;
+    padding-top: 20;
+}
+
+.titulo3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: white;
+    padding: 89px 10% 10% 10% ;
+    font-weight: bold;
+    margin: 0 0 -5px 0;
 }
 
 .boton{
