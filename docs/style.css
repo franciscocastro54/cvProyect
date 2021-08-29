@@ -1,5 +1,6 @@
 :root{
     --text-color: #73a3d0;
+    --font-size: 18px;
 }
 .encabezado{
     width: 1010px;
@@ -36,11 +37,19 @@
     color: white;
     padding: 10% ;
     font-weight: bold;
+    margin: -5px 0 -5px 0;
   }
 
 .name{
     padding-bottom: 5px;
     font-weight: 501;
+
+}
+
+.name-proyect{
+    margin: 0 0 5%;
+    font-weight: 501;
+
 
 }
 
@@ -144,10 +153,20 @@
 .grid-link{
     display: grid;
     grid-template-columns: 50% auto;
+    padding: 20px 0 5px 0;
 }
 
-.flex-parrafo{
-    display: flex;
-    margin-top: -20px;
-    margin-bottom: -97px;
+.grid-parrafo{
+    display: grid;
+    height: 96px;
+}
+
+.boton{
+    color: white;
+    background-color: var(--text-color);
+    width: 25%;
+    height: 30%;
+    font-weight: bold;
+    font-size: var(--font-size);
+    margin: 2% 0 2% 20%;
 }
