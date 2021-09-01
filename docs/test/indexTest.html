@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleTest.css" media="screen" />
+    <script src="../formatoPDF.js"></script>
+    <script src="../html2pdf.bundle.min.js"></script>
+    <title>CV</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Creador de CV</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>
+                <button class="boton" id="btnCrearPdf">Descargar pdf</button>
+            </li>
+        </ul>
+    </nav>
+    
+    <section>
+
+        <article id="content">
+                <header class="encabezado1">
+                    <text class="titulo1" id="nombre">Francisco Castro Zuleta</text>
+                    <text class="titulo2" id="formacion">Estudiante Analista Programador</text>
+                    <text class="titulo2" id="institucion">Inacap Renca, Bravo de Saravia 2980  </text>
+                    <text class="titulo2" id="fechaFormacion">mar 2020 - presente</text>
+                </header>
+        
+                <div class="grid-tema1" id="datosPersonales">
+                    <h4 class="section" >Datos personales</h4>
+                    
+                    <div class="grid-content1">
+        
+                        <div class="name">Nombre</div>
+                        <div >Francisco Castro Zuleta</div>
+                        
+                        <div class="name">RUT</div>
+                        <div id="rut">18.928.841-7</div>
+        
+                        <div class="name">Correo electrónico</div>
+                        <div id="mail">francisco.castro.init@gmail.com</div>
+                        
+                        <div class="name">Teléfono</div>
+                        <div id="telefono">+569 35232158</div>
+                        
+                        <div class="name">Fecha de nacimiento</div>
+                        <div id="fechaNacimiento">5 de septiembre de 1993</div>
+                        
+                        <div class="name">Género</div>
+                        <div id="genero">Hombre</div>
+                        
+                        <div class="name">Nacionalidad</div>
+                        <div id="nacionalidad">Chilena</div>
+                        
+                        <div class="name">Estado civil</div>
+                        <div id="estadoCivil">Soltero</div>
+                        
+                        
+                        
+        
+                    </div>
+                </div>
+
+        
+        
+                <div class="grid-tema1" id="Competencias">
+                    <h4 class="section" >Competencias</h4>
+                    
+                    <div class="grid-content1">
+        
+                        
+                        <div class="name" >Java</div>
+                        <div class="medio">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">Javascript</div>
+                        <div class="alto">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+                        
+                        <div class="name">React</div>
+                        <div class="medio">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+        
+                        <div class="name">Bootstrap 5</div>
+                        <div class="alto">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">css</div>
+                        <div class="alto">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">Oracle Database</div>
+                        <div class="medio">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+        
+                        <div class="name">Git</div>
+                        <div class="alto">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">html 5</div>
+                        <div class="full">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">MySQL</div>
+                        <div class="medio">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+        
+                        <div class="name">Visual Studio Code</div>
+                        <div class="full">
+                            <div class="fill-box"></div>
+                            <div></div>
+                        </div>
+        
+                        <div class="name">Python</div>
+                        <div class="bajo">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+                        
+                        <div class="name">NetBeans</div>
+                        <div class="medio">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+        
+                    </div>
+                </div>
+                
+                <div class="grid-tema1" id="idiomas">
+                    <h4 class="section">Idiomas</h4>
+                    
+                    <div class="grid-content1">
+        
+                        <div class="name">Ingles</div>
+                        <div class="alto">
+                            <div class="fill-box"></div>
+                            <div ></div>
+                        </div>
+         
+                    </div>
+                </div>
+        
+                <div class="grid-tema1" id="aptitudes">
+                    <h4 class="section">Aptitudes</h4>
+                    
+                    <div class="parrafo1">
+                      
+                        <div>Excelente comunicación y  trabajo en equipo además de disposición para aprender nuevas tecnologías y constante estudio autodidacta de nuevas soluciones tecnologicas. </div>
+                        
+                    </div>
+                </div>
+        
+                
+        
+                <div class="grid-tema1" id="referencias">
+                    <h4 class="section">Referencias</h4>
+                    
+                    <div class="grid-content1">
+        
+                        
+                        <div class="name">Javier Ignacio Miles Avello</div>
+                        <div>+569 89005258</div>
+        
+                        <div class="name">Correo electrónico</div>
+                        <div>javier.miles@inacapmail.cl</div>
+        
+                        <div class="name"> Dirección </div>
+                        <div>Inacap Renca, Bravo de Saravia 2980</div>
+        
+                        
+                        
+                    </div>
+                </div>
+        
+                <div class="grid-tema1" id="portafolio">
+                    <h4 class="section">Portafolio</h4>
+                    
+                    <div class="grid-content1">
+        
+                        
+                        <div class="name">Sistema de análisis de datos de mineria</div>
+                        <div class="grid-link">
+                            <a href="https://gh-pages.d1ttcus0droxpy.amplifyapp.com/Circuito_Unitario">Proyecto mineria</a> 
+                            <img class="qr"src="../qrMineria.png" alt="mineral proyect"/>
+                        </div>
+                        
+        
+                        <div class="name">Tecnologías usadas en diseño</div>
+                        <div class="parrafo2">html, Bootstrap 5, Javascript, React,  css y github</div>
+        
+                        
+                        <div class="name">Curriculum</div>
+                        <div class="grid-link">
+                        
+                            <a href="https://franciscocastro54.github.io/cvProyect/">Curriculum online</a> 
+                            <img class="qr"src="../qrCV.png" alt="mineral proyect"/>
+                        
+                        </div>
+        
+        
+                        <div class="name">Código</div>
+                        <div><a href="https://github.com/franciscocastro54/cvProyect">código fuente de curriculum</a></div>
+        
+                        <div class="name">Tecnologías usadas en diseño</div>
+                        <div class="parrafo2">html, css y github</div>
+                    </div>
+                </div>
+        
+                <div class="grid-tema1" id="Pasatiempos">
+                    <h4 class="section">Pasatiempos e intereses</h4>
+                    
+                    <div class="grid-content1">
+        
+                        
+                        <div class="name">Desarrollo de videojuegos</div>
+                        <div></div>
+        
+                        <div class="name">Practicar Taekwondo</div>
+                        <div></div>
+        
+                        <div class="name">Investigación autodidacta</div>
+                        <div></div>
+                        
+                    </div>
+                </div>
+        
+            </div>
+        </article>
+
+        <article></article>
+   
+    </section>
+    
+    <aside>
+        <h3>barra lateral</h3>
+    </aside>
+    
+    <footer>
+        <h3>footer</h3>
+    </footer>
+
+</body>
+</html>
