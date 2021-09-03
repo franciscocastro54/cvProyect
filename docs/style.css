@@ -178,7 +178,7 @@ article{
 
 .grid-link{
     display: grid;
-    grid-template-rows: 50px 145px;
+    grid-template-rows: 50px 55px;
 }
 
 footer{
