@@ -148,3 +148,15 @@ article{
     display: grid;
     grid-template-rows: 50px 145px;
 }
+
+footer{
+    overflow: hidden;
+    background-color: var(--text-color3);
+    padding: 20px 20px 0 20px;
+    color: var(--text-color4);
+}
+
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 30% 40%;
+}
